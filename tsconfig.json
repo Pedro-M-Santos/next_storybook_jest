@@ -15,8 +15,12 @@
     "jsx": "preserve",
     "incremental": true,
     "rootDir": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@components/*": ["./components/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@stories/*": ["./src/stories/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
